@@ -1,0 +1,162 @@
+GIT
+  remote: git@github.com:intridea/grape.git
+  revision: 4de311bba0b26df4dd03d3ea2f7dc7881b50f449
+  specs:
+    grape (0.9.1)
+      activesupport
+      builder
+      hashie (>= 2.1.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      rack (>= 1.3.0)
+      rack-accept
+      rack-mount
+      virtus (>= 1.0.0)
+
+GIT
+  remote: git@github.com:mariaclrd/ruby-nos.git
+  revision: 1ae45aaad449db2a425150389fd0790b8163dfd9
+  specs:
+    ruby_nos (0.0.1)
+
+GIT
+  remote: git@github.com:workshare/grape-swagger.git
+  revision: 10def76eb1c226448cccd4dd35c9a15867e857a5
+  specs:
+    grape-swagger (0.7.2)
+      grape (>= 0.2.0)
+      grape-entity (>= 0.3.0)
+      kramdown (>= 1.3.1)
+
+GIT
+  remote: git@github.com:workshare/insta_swag.git
+  revision: ca73e99b405212555a918899416c3b1f808a2914
+  branch: swagger-fork
+  specs:
+    insta_swag (0.0.1)
+
+GIT
+  remote: git@github.com:workshare/mini-logger.git
+  revision: 2eac80e8c87cf5e36d9cb836f2720e8e15c11eaf
+  specs:
+    mini_logger (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.6)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    airbrake (4.1.0)
+      builder
+      multi_json
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    builder (3.2.2)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    coderay (1.1.0)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    diff-lcs (1.2.5)
+    equalizer (0.0.9)
+    ffi (1.9.4)
+    formatador (0.2.5)
+    grape-entity (0.4.4)
+      activesupport
+      multi_json (>= 1.3.2)
+    guard (2.6.1)
+      formatador (>= 0.2.4)
+      listen (~> 2.7)
+      lumberjack (~> 1.0)
+      pry (>= 0.9.12)
+      thor (>= 0.18.1)
+    guard-rspec (4.3.1)
+      guard (~> 2.1)
+      rspec (>= 2.14, < 4.0)
+    hashie (3.3.1)
+    hitimes (1.2.2)
+    i18n (0.6.11)
+    ice_nine (0.11.0)
+    json (1.8.1)
+    kramdown (1.4.2)
+    listen (2.7.9)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
+    method_source (0.8.2)
+    mini_check (0.2.0)
+      json
+    minitest (5.4.1)
+    multi_json (1.10.1)
+    multi_xml (0.5.5)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    puma (2.9.1)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
+    rack-mount (0.8.3)
+      rack (>= 1.0.0)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.3.2)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rspec (3.1.0)
+      rspec-core (~> 3.1.0)
+      rspec-expectations (~> 3.1.0)
+      rspec-mocks (~> 3.1.0)
+    rspec-core (3.1.4)
+      rspec-support (~> 3.1.0)
+    rspec-expectations (3.1.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.1.0)
+    rspec-mocks (3.1.1)
+      rspec-support (~> 3.1.0)
+    rspec-support (3.1.0)
+    slop (3.6.0)
+    thor (0.19.1)
+    thread_safe (0.3.4)
+    timers (4.0.1)
+      hitimes
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    virtus (1.0.3)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  airbrake
+  grape!
+  grape-swagger!
+  guard
+  guard-rspec
+  insta_swag!
+  mini_check
+  mini_logger!
+  pry
+  puma
+  rack-test
+  rake
+  rspec
+  ruby_nos!
+  thor

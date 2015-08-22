@@ -1,0 +1,15 @@
+server:
+    port: 10140
+
+airbrake:
+    api_key: test
+
+api:
+    prefix: ""
+
+ruby_nos:
+    port:  3728
+    cloud: 00000000-0000-006f-0000-0000000000de
+    group_address: 230.31.32.33
+    time_between_messages: 10
+    api_name: "RubyNosClient-api"
